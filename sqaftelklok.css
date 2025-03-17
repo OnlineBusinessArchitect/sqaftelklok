@@ -1,0 +1,25 @@
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.countdown-box {
+    background: rgba(0, 0, 0, 0.2); /* Transparante donkere achtergrond */
+    padding: 15px;
+    border-radius: 0px; /* Geen afgeronde hoeken */
+    text-align: center;
+    min-width: 100px;
+}
+.countdown-number {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: var(--h3-font, sans-serif); /* Squarespace heading font */
+    color: white;
+    display: block;
+}
+.countdown-label {
+    font-size: 1rem;
+    color: inherit; /* Overnemen van de Squarespace blokstijl */
+}
